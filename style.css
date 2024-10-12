@@ -1,0 +1,425 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.up {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+}
+
+.up-logo {
+  width: 5rem;
+  height: 1rem;
+}
+.up-text-1{
+    font-size: 1.5rem;
+    color: #093238; 
+    font-family: "Poppins", sans-serif;
+
+}
+.boton-up-1 {
+  background-color: white;
+  border: 0.1rem solid #f762c1;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  color: #f762c1;
+}
+
+.up-2 {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  text-align: center;
+  align-items: center;
+}
+.text-up-1-1 {
+  text-align: center;
+}
+
+.text-up-2-2 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  width: 21rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.boton-up-2 {
+  background-color: #f762c1;
+  border: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 1rem;
+  color: white;
+  height: 2rem;
+  width: 8rem;
+  font-size: 0.5rem;
+}
+
+.up-3-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+.image {
+  width: 26rem;
+  height: 20rem;
+}
+
+.up-3-kms {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.communities {
+  width: 1.5rem;
+  position: relative;
+  top: 3rem;
+}
+
+.menssages {
+  width: 1.5rem;
+  position: relative;
+  top: 3rem;
+}
+.kms {
+  font-size: 3rem;
+}
+
+.text-kms {
+  font-size: 0.7rem;
+  position: relative;
+  bottom: 2.8rem;
+}
+
+.grow-image {
+  width: 14rem;
+  height: 14rem;
+  margin-right: 2rem;
+  position: relative;
+  bottom: 3rem;
+  right: 2rem;
+}
+.flowing-image {
+  width: 14rem;
+  height: 14rem;
+  margin-left: 2rem;
+  position: relative;
+  bottom: 3rem;
+}
+.your-image {
+  width: 14rem;
+  height: 14rem;
+  margin-bottom: 2rem;
+  position: relative;
+  bottom: 3rem;
+  right: 2rem;
+}
+
+.mediun-grow {
+  display: flex;
+  flex-direction: row-reverse;
+  
+  gap: 1rem;
+  background-color:#F6FBFF;
+}
+.mediun-flowing {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.mediun-your {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 1rem;
+  background-color: #F6FBFF;
+}
+
+.medium-text {
+  width: 28.5rem;
+  color: #647576;
+}
+.medium-text-0 {
+  color: #647576;
+}
+.mediun-text-1 {
+  font-size: 1.5rem;
+  color: #093238;
+}
+.curve-1{
+    position: relative;
+    top: 0.50rem;
+}
+.curve-2{
+    position: relative;
+    top: 0.50rem;
+}
+
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.contact {
+  background-color: #00252e;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: flex-start;
+  text-align: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.contac-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.bg-footer-top-desktop {
+  position: relative;
+  top: 0.50rem;
+  height: 9.88rem;
+}
+svg {
+  fill: floralwhite;
+}
+
+.phone-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.phone-icon {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 1rem;
+}
+
+.email-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.email-icon {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  top: 1rem;
+}
+.subscribe {
+  background-color: #f762c1;
+  border: none;
+  color: white;
+  font-size: 0.5rem;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.2rem;
+}
+.contact-2-form {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+}
+.text {
+  border-radius: 0.5rem;
+}
+
+.text-1-1 {
+  width: 16rem;
+  color: white;
+  text-align: start;
+  font-size: 0.8rem;
+}
+.text-1-2 {
+  width: 20rem;
+}
+
+.contact-2 {
+  position: relative;
+  top: 1rem;
+}
+.redes {
+  position: relative;
+  right: 5.7rem;
+}
+
+.contact-text-1 {
+  width: 16rem;
+  color: white;
+  text-align: start;
+  font-size: 0.8rem;
+}
+.Newsletter {
+  text-align: start;
+}
+
+@media (max-width: 48rem) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .container{
+        margin-top: 1rem;
+       
+    }
+
+    .up{
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+  
+  .image {
+    width: 22rem;
+    height: 16rem;
+  }
+
+  .up-3-kms {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .communities {
+    position: relative;
+    right: 2.5rem;
+  }
+  .menssages {
+    position: relative;
+    right: 2.5rem;
+  }
+
+  .mediun-grow {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    gap: 1rem;
+    align-items: center;
+    
+  
+  }
+
+  .mediun-flowing {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  .mediun-your {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 0rem;
+    align-items: center;
+    
+  }
+  .contact-image{
+    width: 1rem;
+    height: 11rem;
+  }
+
+  .grow-image {
+    width: 14rem;
+    height: 14rem;
+    margin-right: 0rem;
+    position: relative;
+    bottom: 0rem;
+  }
+  .flowing-image {
+    width: 14rem;
+    height: 14rem;
+    margin-left: 0rem;
+    position: relative;
+    bottom: 0rem;
+  }
+  .your-image {
+    width: 14rem;
+    height: 14rem;
+    margin-bottom: 0rem;
+    position: relative;
+    bottom: 0rem;
+  }
+
+  .mediun-text-1 {
+    font-size: 1.5rem;
+    color: #093238;
+
+  text-align: center;
+  }
+  .mediun-text-2{
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+  }
+
+  .contact {
+    background-color: #00252e;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+    justify-content: flex-start;
+    text-align: center;
+
+    justify-content: space-between;
+  }
+
+  .contact-2-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+  }
+
+  .text{
+    width: 16rem;
+    height: 2rem;
+
+    
+  }
+  .bg-footer-top-desktop{
+    position: relative;
+    top: 0.50rem;
+    right: 0.03rem;
+    height: 2.69rem;
+    
+  }
+
+ 
+  .up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem;
+  }
+
+
+}
